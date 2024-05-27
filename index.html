@@ -9,17 +9,18 @@
 <body>
     <div class="container">
         <div id="gift-box" class="gift-box" onclick="firstClick()">
-            <div class="text">Για την χαρα</div>
+            <div class="text">Click to reveal the secret message</div>
         </div>
         <div id="code-prompt" class="hidden">
             <p>Enter the secret code:</p>
             <input type="text" id="code-input" placeholder="Code">
             <button onclick="checkCode()">Submit</button>
         </div>
-        <div id="message" class="message hidden">στειλε βυζζ</div>
+        <div id="message" class="message hidden">Χαρα σε αγαπω</div>
     </div>
     <audio id="background-music" src="lofi.mp3" autoplay loop></audio>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/Tween.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
